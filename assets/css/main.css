@@ -2874,8 +2874,8 @@ input, select, textarea {
 .column-center{ display: inline-block; width: auto; }
 
 .fronticons{
-	width: 75px;
-	height: 75px;
+	width:10%;
+	height:10%;
 }
 
 .right-logos{
@@ -2884,7 +2884,23 @@ input, select, textarea {
 }
 
 
-
+.example {
+	margin: 1em 0;
+	text-align: center;
+  }
+  
+  .example img {
+	width: 7vw;
+	height: 7vw;
+  }
+  
+  .example-cover img {
+	object-fit: cover;
+  }
+  
+  .example-contain img {
+	object-fit: contain;
+  }
 
 .button-59 {
   align-items: center;
